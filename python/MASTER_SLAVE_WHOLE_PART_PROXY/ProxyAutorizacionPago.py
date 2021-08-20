@@ -58,7 +58,7 @@ class ProxyAutorizacionPago(SistemaAutorizacionPago):
     
     reservacion = Reservacion()
     
-    def preparaCargo(self, datosFuncion: DatosFuncion):
+    def preparaCargo(self, datosFuncion: DatosFuncion, datosCompra: DatosCompra):
         # Lógica que determina el cargo ...
         cargo = 100
         reembolsable = False

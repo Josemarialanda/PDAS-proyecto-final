@@ -6,29 +6,25 @@ class DatosCliente:
     apellidoPaterno : str
     apellidoMaterno : str
     edad            : int
-    estudiante      : bool
-    clienteEspecial : bool
+    tipoCliente     : str
     
     def setDatosCliente(self, nombres         : str,
                               apellidoPaterno : str,
                               apellidoMaterno : str,
                               edad            : int,
-                              estudiante      : bool,
-                              clienteEspecial : bool) -> None:
+                              tipoCliente      : bool) -> None:
         self.nombres         = nombres
         self.apellidoPaterno = apellidoPaterno
         self.apellidoMaterno = apellidoMaterno
         self.edad            = edad
-        self.estudiante      = estudiante
-        self.clienteEspecial = clienteEspecial
+        self.tipoCliente     = tipoCliente
     
     def getDatosCliente(self):
         return (self.nombres,
                 self.apellidoPaterno,
                 self.apellidoMaterno,
                 self.edad,
-                self.estudiante,
-                self.clienteEspecial)
+                self.tipoCliente)
     
 class DatosCompra:
     
@@ -53,7 +49,6 @@ class DatosFuncion:
         self.horario  = horario
         self.pelicula = pelicula
         
-    
     def modificarDatosFuncion(self, asiento : str = None,
                                     horario : date = None,
                                     pelicula : str = None) -> None:
@@ -67,6 +62,7 @@ class DatosFuncion:
                 self.pelicula)
         
 class Reservacion:
+    
     datosCliente = DatosCliente()
     datosCompra  = DatosCompra()
     datosFuncion = DatosFuncion()
@@ -81,8 +77,7 @@ class Reservacion:
             Apellido paterno : {self.datosCliente.apellidoPaterno}
             Apellido materno : {self.datosCliente.apellidoMaterno}
             Edad             : {self.datosCliente.edad}
-            Estudiante       : {"TRUE" if self.datosCliente.estudiante else "FALSE"}
-            cliente especial : {"TRUE" if self.datosCliente.clienteEspecial else "FALSE"}
+            Tipo de cliente  : {self.datosCliente.tipoCliente}
             
         Datos compra:
             Número de tarjeta               : {self.datosCompra.numeroTarjeta}
