@@ -19,13 +19,6 @@ class DatosCliente:
         self.edad            = edad
         self.tipoCliente     = tipoCliente
     
-    def getDatosCliente(self):
-        return (self.nombres,
-                self.apellidoPaterno,
-                self.apellidoMaterno,
-                self.edad,
-                self.tipoCliente)
-    
 class DatosCompra:
     
     numeroTarjeta    : str
@@ -48,18 +41,6 @@ class DatosFuncion:
         self.asiento  = asiento
         self.horario  = horario
         self.pelicula = pelicula
-        
-    def modificarDatosFuncion(self, asiento : str = None,
-                                    horario : date = None,
-                                    pelicula : str = None) -> None:
-        if asiento  is not None: self.asiento  = asiento
-        if horario  is not None: self.horario  = horario
-        if pelicula is not None: self.pelicula = pelicula
-    
-    def verDatosFuncion(self):
-        return (self.asiento,
-                self.horario,
-                self.pelicula)
         
 class Reservacion:
     
