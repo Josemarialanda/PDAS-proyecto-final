@@ -1,5 +1,5 @@
-from GestorReservaciones import GestorReservaciones
-from Reservacion import Reservacion
+from MASTER_SLAVE_WHOLE_PART_PROXY.whole_part.Reservacion import Reservacion
+from MASTER_SLAVE_WHOLE_PART_PROXY.master.GestorReservaciones import GestorReservaciones
 from datetime import date, datetime
 
 class Cliente:
