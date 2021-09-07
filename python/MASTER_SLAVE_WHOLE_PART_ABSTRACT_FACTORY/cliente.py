@@ -11,70 +11,37 @@ class Cliente:
     
     def solicitaProductoSencillo(self,tipo,datos):
         if tipo == "reservacion":
-            nombre           = datos[0]
-            apellidoPaterno  = datos[1]
-            apellidoMaterno  = datos[2]
-            edad             = datos[3]
-            tipoCliente      = datos[4]
-            numeroTarjeta    = datos[5]
-            fechaVencimiento = datos[6]
-            asiento          = datos[7]
-            horario          = datos[8]
-            pelicula         = datos[9]
-            return self.reservacionFactory.crearProductoCineSencillo(nombre,apellidoPaterno,apellidoMaterno,
-                                                              edad,tipoCliente,numeroTarjeta,
-                                                              fechaVencimiento,asiento,horario,
-                                                              pelicula)
+            return self.reservacionFactory.crearProductoCineSencillo(*datos)
         if tipo == "membresia":
-            nombre           = datos[0]
-            apellidoPaterno  = datos[1]
-            apellidoMaterno  = datos[2]
-            edad             = datos[3]
-            tipoCliente      = datos[4]
-            return self.membresiaFactory.crearProductoCineSencillo(nombre,apellidoPaterno,apellidoMaterno,
-                                                              edad,tipoCliente)
+            return self.membresiaFactory.crearProductoCineSencillo(*datos)
     
     def solicitaProductoVIP(self,tipo,datos):
         if tipo == "reservacion":
-            nombre           = datos[0]
-            apellidoPaterno  = datos[1]
-            apellidoMaterno  = datos[2]
-            edad             = datos[3]
-            tipoCliente      = datos[4]
-            numeroTarjeta    = datos[5]
-            fechaVencimiento = datos[6]
-            asiento          = datos[7]
-            horario          = datos[8]
-            pelicula         = datos[9]
-            beneficios       = datos[10]
-            return self.reservacionFactory.crearProductoCineVIP(nombre,apellidoPaterno,apellidoMaterno,
-                                                              edad,tipoCliente,numeroTarjeta,
-                                                              fechaVencimiento,asiento,horario,
-                                                              pelicula,beneficios)
+            return self.reservacionFactory.crearProductoCineVIP(*datos)
         if tipo == "membresia":
-            nombre           = datos[0]
-            apellidoPaterno  = datos[1]
-            apellidoMaterno  = datos[2]
-            edad             = datos[3]
-            tipoCliente      = datos[4]
-            beneficios       = datos[5]
-            return self.membresiaFactory.crearProductoCineVIP(nombre,apellidoPaterno,apellidoMaterno,
-                                                              edad,tipoCliente,beneficios)
+            return self.membresiaFactory.crearProductoCineVIP(*datos)
             
 cliente = Cliente()
 
+# Crear reservacion sencilla
 datosReservacionSencilla = ["Josemaria","Landa","Chavez",24,"Cholo bien gangster",
                                   "56647298922",datetime.today(),
                                   "4B",datetime.now(),"The Avengers"]
+reservacionSencilla = cliente.solicitaProductoSencillo("reservacion", datosReservacionSencilla)
+
+
+# Crear reservacion VIP
 datosReservacionVIP = ["Josemaria","Landa","Chavez",24,"Cholo bien gangster",
                                   "56647298922",datetime.today(),
                                   "4B",datetime.now(),"The Avengers",["Asiento reclinable","masaje"]]
-
-reservacionSencilla = cliente.solicitaProductoSencillo("reservacion", datosReservacionSencilla)
 reservacionVIP      = cliente.solicitaProductoVIP("reservacion", datosReservacionVIP)
 
-datosMembresiaSencilla = ["Josemaria","Landa","Chavez",24,"Cholo bien gangster"]
-datosMembresiaVIP      = ["Josemaria","Landa","Chavez",24,"Cholo bien gangster",["Asiento reclinable","masaje"]]
 
+# crear membresia sencilla
+datosMembresiaSencilla = ["Josemaria","Landa","Chavez",24,"Cholo bien gangster"]
 membresiaSencilla = cliente.solicitaProductoSencillo("membresia",datosMembresiaSencilla)
+
+
+# crear membresia VIP
+datosMembresiaVIP      = ["Josemaria","Landa","Chavez",24,"Cholo bien gangster",["Asiento reclinable","masaje"]]
 membresiaVIP      = cliente.solicitaProductoVIP("membresia",datosMembresiaVIP)
