@@ -24,24 +24,24 @@ class Cliente:
 cliente = Cliente()
 
 # Crear reservacion sencilla
-datosReservacionSencilla = ["Josemaria","Landa","Chavez",24,"Cholo bien gangster",
+datosReservacionSencilla = ["Josemaria","Landa","Chavez",24,"Estudiante",
                                   "56647298922",datetime.today(),
                                   "4B",datetime.now(),"The Avengers"]
 reservacionSencilla = cliente.solicitaProductoSencillo("reservacion", datosReservacionSencilla)
 
 
 # Crear reservacion VIP
-datosReservacionVIP = ["Josemaria","Landa","Chavez",24,"Cholo bien gangster",
+datosReservacionVIP = ["Josemaria","Landa","Chavez",24,"Estudiante",
                                   "56647298922",datetime.today(),
-                                  "4B",datetime.now(),"The Avengers",["Asiento reclinable","masaje"]]
+                                  "4B",datetime.now(),"The Avengers",["Asiento reclinable","masaje de cuello"]]
 reservacionVIP      = cliente.solicitaProductoVIP("reservacion", datosReservacionVIP)
 
 
 # crear membresia sencilla
-datosMembresiaSencilla = ["Josemaria","Landa","Chavez",24,"Cholo bien gangster"]
+datosMembresiaSencilla = ["Josemaria","Landa","Chavez",24,"Estudiante"]
 membresiaSencilla = cliente.solicitaProductoSencillo("membresia",datosMembresiaSencilla)
 
 
 # crear membresia VIP
-datosMembresiaVIP      = ["Josemaria","Landa","Chavez",24,"Cholo bien gangster",["Asiento reclinable","masaje"]]
+datosMembresiaVIP      = ["Josemaria","Landa","Chavez",24,"Estudiante",["Asiento reclinable","masaje de cuello"]]
 membresiaVIP      = cliente.solicitaProductoVIP("membresia",datosMembresiaVIP)
