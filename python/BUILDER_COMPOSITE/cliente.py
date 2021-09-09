@@ -48,14 +48,15 @@ reservacionVIP = cliente.solicitaReservacionVIP(datosReservacionVIP)
 
 # solicitar reservacion multiple (usando reservacion VIP como base)
 reservacionMultiple = cliente.solicitaReservacionMultiple(datosReservacionVIP)
+
 # agregar una reservacion sencilla
 reservacionMultiple.agregarReservacion(reservacionSencilla)
+
 # eliminar la reservacion sencilla que se acaba de agregar
 reservacionMultiple.eliminarReservacion(reservacionSencilla)
-# agregar una reservacion multiple
-reservacionMultiple2 = cliente.solicitaReservacionMultiple(datosReservacionSencilla)
-# agregar una reservacion VIP a la reservacion multiple 2
-reservacionMultiple2.agregarReservacion(reservacionVIP)
-reservacionMultiple.agregarReservacion(reservacionMultiple2)
+
+# agregar una reservacion sencilla de nuevo
+reservacionMultiple.agregarReservacion(reservacionSencilla)
+
 # mostrar reservaciones
 reservacionMultiple.mostrarReservacion()
