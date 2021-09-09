@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2021-09-09T05:28:04.407Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="ggkYi5s5OXYPTXhMgVOZ" version="15.1.2" type="google">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="2302" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Cliente" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="80" width="120" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="55" y="70" width="10" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-2" value="DirectorReservacion" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="80" width="180" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="UI0SRk6Z0nsymsSiOE_z-2" vertex="1">
+          <mxGeometry x="85" y="130" width="10" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-8" value="ReservacionSencilla" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="80" width="200" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-15" value="new DirectorReservacion()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="UI0SRk6Z0nsymsSiOE_z-3" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="380" y="220" as="sourcePoint" />
+            <mxPoint x="540" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="260" />
+              <mxPoint x="490" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-19" value="DirectorReservacion()-&amp;gt;setConstructor(ConstructorReservacionSencilla)" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="UI0SRk6Z0nsymsSiOE_z-3" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="240" as="sourcePoint" />
+            <mxPoint x="535" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="320" />
+              <mxPoint x="450" y="320" />
+              <mxPoint x="620" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-22" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="150" width="10" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-23" value="DirectorReservacion()-&amp;gt;construirReservacion()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="UI0SRk6Z0nsymsSiOE_z-3" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="385" y="320" as="sourcePoint" />
+            <mxPoint x="740" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="400" />
+              <mxPoint x="630" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-27" value="ConstructorReservacionSencilla" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="905" y="80" width="180" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-28" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="990" y="160" width="10" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-29" value="new ConstructorReservacionSencilla()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="UI0SRk6Z0nsymsSiOE_z-28" edge="1">
+          <mxGeometry x="-0.344" width="80" relative="1" as="geometry">
+            <mxPoint x="760" y="209.9999999999999" as="sourcePoint" />
+            <mxPoint x="920" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="180" />
+              <mxPoint x="590" y="180" />
+              <mxPoint x="840" y="180" />
+              <mxPoint x="900" y="180" />
+              <mxPoint x="960" y="180" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-30" value="new ReservacionSencilla()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="UI0SRk6Z0nsymsSiOE_z-28" target="UI0SRk6Z0nsymsSiOE_z-22" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1000" y="240" as="sourcePoint" />
+            <mxPoint x="1580" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="230" />
+              <mxPoint x="1050" y="230" />
+              <mxPoint x="1110" y="230" />
+              <mxPoint x="1160" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-31" value="construirReservacion()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="755" y="440" as="sourcePoint" />
+            <mxPoint x="990" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="440" />
+              <mxPoint x="890" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-32" value="construirDatosCliente()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" target="UI0SRk6Z0nsymsSiOE_z-22" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1000" y="480" as="sourcePoint" />
+            <mxPoint x="1235" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1035" y="480" />
+              <mxPoint x="1135" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-36" value="DatosCliente()-&amp;gt;setDatosCliente()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="UI0SRk6Z0nsymsSiOE_z-22" target="UI0SRk6Z0nsymsSiOE_z-22" edge="1">
+          <mxGeometry x="0.0714" y="-15" width="80" relative="1" as="geometry">
+            <mxPoint x="1240" y="490" as="sourcePoint" />
+            <mxPoint x="1240" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="510" />
+              <mxPoint x="1345" y="510" />
+              <mxPoint x="1345" y="570" />
+              <mxPoint x="1260" y="570" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-37" value="construirDatosCompra()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" target="UI0SRk6Z0nsymsSiOE_z-22" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1000" y="640" as="sourcePoint" />
+            <mxPoint x="1220" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1035" y="640" />
+              <mxPoint x="1135" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-38" value="construirDatosFuncion()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" target="UI0SRk6Z0nsymsSiOE_z-22" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1000" y="790" as="sourcePoint" />
+            <mxPoint x="1605" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1035" y="790" />
+              <mxPoint x="1135" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-39" value="DatosCompra()-&amp;gt;setDatosCompra()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry x="0.0714" y="-15" width="80" relative="1" as="geometry">
+            <mxPoint x="1234.9999999999995" y="680" as="sourcePoint" />
+            <mxPoint x="1234.9999999999995" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="680" />
+              <mxPoint x="1345" y="680" />
+              <mxPoint x="1345" y="740" />
+              <mxPoint x="1260" y="740" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-40" value="DatosFuncion()-&amp;gt;setDatosFuncion()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry x="0.0714" y="-15" width="80" relative="1" as="geometry">
+            <mxPoint x="1234.9999999999995" y="830" as="sourcePoint" />
+            <mxPoint x="1234.9999999999995" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="830" />
+              <mxPoint x="1345" y="830" />
+              <mxPoint x="1345" y="890" />
+              <mxPoint x="1260" y="890" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-41" value="ConstructorReservacionSencilla()-&amp;gt;obtenerReservacion()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry x="-0.344" width="80" relative="1" as="geometry">
+            <mxPoint x="365" y="950" as="sourcePoint" />
+            <mxPoint x="990" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="950" />
+              <mxPoint x="590" y="950" />
+              <mxPoint x="840" y="950" />
+              <mxPoint x="900" y="950" />
+              <mxPoint x="960" y="950" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-42" value="obtenerReservacion()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" target="UI0SRk6Z0nsymsSiOE_z-22" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1000" y="1000" as="sourcePoint" />
+            <mxPoint x="1604.9999999999995" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1035" y="1000" />
+              <mxPoint x="1135" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-43" value="return ReservacionSencilla()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.023;exitY=0.957;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="UI0SRk6Z0nsymsSiOE_z-22" target="UI0SRk6Z0nsymsSiOE_z-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1210" y="1050" as="sourcePoint" />
+            <mxPoint x="1010" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UI0SRk6Z0nsymsSiOE_z-44" value="return ReservacionSencilla()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+          <mxGeometry x="-0.616" y="1" relative="1" as="geometry">
+            <mxPoint x="990" y="1099" as="sourcePoint" />
+            <mxPoint x="385" y="1099" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
