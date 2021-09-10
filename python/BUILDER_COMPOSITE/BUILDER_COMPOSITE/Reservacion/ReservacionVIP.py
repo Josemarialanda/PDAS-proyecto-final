@@ -1,14 +1,7 @@
-from .DatosCliente  import DatosCliente
-from .DatosCompra  import DatosCompra
-from .DatosFuncion  import DatosFuncion
 from .DatosBeneficios  import DatosBeneficios
 from .Reservacion import Reservacion
 
 class ReservacionVIP(Reservacion):
-    
-    datosCliente = DatosCliente()
-    datosCompra = DatosCompra()
-    datosFuncion = DatosFuncion()
     datosBeneficios = DatosBeneficios()
 
     

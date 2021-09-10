@@ -45,3 +45,5 @@ membresiaSencilla = cliente.solicitaProductoSencillo("membresia",datosMembresiaS
 # crear membresia VIP
 datosMembresiaVIP      = ["Josemaria","Landa","Chavez",24,"Estudiante",["Asiento reclinable","masaje de cuello"]]
 membresiaVIP      = cliente.solicitaProductoVIP("membresia",datosMembresiaVIP)
+
+reservacionVIP.mostrarReservacion()

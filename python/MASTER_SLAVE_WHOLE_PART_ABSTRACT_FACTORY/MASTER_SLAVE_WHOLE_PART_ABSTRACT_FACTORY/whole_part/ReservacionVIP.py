@@ -1,14 +1,8 @@
-from .DatosCliente  import DatosCliente
-from .DatosCompra  import DatosCompra
-from .DatosFuncion  import DatosFuncion
 from .DatosBeneficios  import DatosBeneficios
 from .Reservacion import Reservacion
 
 class ReservacionVIP(Reservacion):
     
-    datosCliente = DatosCliente()
-    datosCompra = DatosCompra()
-    datosFuncion = DatosFuncion()
     datosBeneficios = DatosBeneficios()
     
     def __init__(self, datosCliente, datosCompra, datosFuncion, datosBeneficios):
@@ -42,6 +36,3 @@ class ReservacionVIP(Reservacion):
             
         '''
         )
-    
-    def gestionarReservacion(self):
-        print("Hacer gestion de reservacion VIP")
