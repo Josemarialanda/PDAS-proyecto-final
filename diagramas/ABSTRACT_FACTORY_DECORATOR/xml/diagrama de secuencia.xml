@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2021-09-23T22:56:58.879Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="9ypmecMIubl-I7_0xLR0" version="15.3.1" type="google">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1864" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tfOXLWFE9za8FCACdLGF-1" value="Cliente" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="80" width="100" height="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="tfOXLWFE9za8FCACdLGF-1" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-3" value="ReservacionSencillaFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="80" width="160" height="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="tfOXLWFE9za8FCACdLGF-3" vertex="1">
+          <mxGeometry x="75" y="70" width="10" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-36" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;ConcreteDecoratorReservacionMultiple&lt;/span&gt;(ReservacionVIP())-&amp;gt;&lt;span style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;volverReservacionMultiple()&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" parent="tfOXLWFE9za8FCACdLGF-3" edge="1">
+          <mxGeometry x="-0.6573" width="80" relative="1" as="geometry">
+            <mxPoint x="-425" y="1040" as="sourcePoint" />
+            <mxPoint x="1005" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-375" y="1040" />
+              <mxPoint x="-345" y="1040" />
+              <mxPoint x="-275" y="1040" />
+              <mxPoint x="-35" y="1040" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-11" value="ReservacionSencilla" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="80" width="120" height="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="tfOXLWFE9za8FCACdLGF-11" vertex="1">
+          <mxGeometry x="55" y="160" width="10" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-24" value="DatosCliente()-&amp;gt;setDatosCliente()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="tfOXLWFE9za8FCACdLGF-11" edge="1">
+          <mxGeometry x="0.0714" y="-15" width="80" relative="1" as="geometry">
+            <mxPoint x="65" y="240" as="sourcePoint" />
+            <mxPoint x="65" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="95" y="240" />
+              <mxPoint x="180" y="240" />
+              <mxPoint x="180" y="300" />
+              <mxPoint x="95" y="300" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-25" value="DatosCompra()-&amp;gt;setDatosCompra()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="tfOXLWFE9za8FCACdLGF-11" edge="1">
+          <mxGeometry x="0.0714" y="-15" width="80" relative="1" as="geometry">
+            <mxPoint x="65" y="330" as="sourcePoint" />
+            <mxPoint x="65" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="330" />
+              <mxPoint x="185" y="330" />
+              <mxPoint x="185" y="390" />
+              <mxPoint x="100" y="390" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-26" value="DatosFuncion()-&amp;gt;setDatosFuncion()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="tfOXLWFE9za8FCACdLGF-11" edge="1">
+          <mxGeometry x="0.0714" y="-15" width="80" relative="1" as="geometry">
+            <mxPoint x="65" y="420" as="sourcePoint" />
+            <mxPoint x="65" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="420" />
+              <mxPoint x="185" y="420" />
+              <mxPoint x="185" y="480" />
+              <mxPoint x="100" y="480" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-13" value="ConcreteDecoratorReservacionVIP" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="80" width="210" height="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-14" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="tfOXLWFE9za8FCACdLGF-13" vertex="1">
+          <mxGeometry x="100" y="600" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-31" value="new ReservacionVIP()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="tfOXLWFE9za8FCACdLGF-13" target="tfOXLWFE9za8FCACdLGF-18" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="720" as="sourcePoint" />
+            <mxPoint x="310" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-15" value="ConcreteDecoratorReservacionMultiple" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="80" width="220" height="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-16" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="tfOXLWFE9za8FCACdLGF-15" vertex="1">
+          <mxGeometry x="105" y="960" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-37" value="new ReservacionMultiple()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="tfOXLWFE9za8FCACdLGF-15" target="tfOXLWFE9za8FCACdLGF-20" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="115" y="1080" as="sourcePoint" />
+            <mxPoint x="195" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-40" value="return ReservacionMultiple()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.006;entryY=0.858;entryDx=0;entryDy=0;entryPerimeter=0;" parent="tfOXLWFE9za8FCACdLGF-15" target="tfOXLWFE9za8FCACdLGF-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="1280" as="sourcePoint" />
+            <mxPoint x="-1310" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-17" value="ReservacionVIP" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="80" width="180" height="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-18" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="tfOXLWFE9za8FCACdLGF-17" vertex="1">
+          <mxGeometry x="85" y="680" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-32" value="DatosBeneficios()-&amp;gt;setDatosBeneficios()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="tfOXLWFE9za8FCACdLGF-17" edge="1">
+          <mxGeometry x="0.0714" y="-15" width="80" relative="1" as="geometry">
+            <mxPoint x="95" y="760" as="sourcePoint" />
+            <mxPoint x="95" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="760" />
+              <mxPoint x="215" y="760" />
+              <mxPoint x="215" y="820" />
+              <mxPoint x="130" y="820" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-33" value="return ReservacionVIP()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="tfOXLWFE9za8FCACdLGF-17" source="tfOXLWFE9za8FCACdLGF-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79.85999999999967" y="880" as="sourcePoint" />
+            <mxPoint x="-130" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-19" value="ReservacionMultiple" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="80" width="180" height="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-20" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="tfOXLWFE9za8FCACdLGF-19" vertex="1">
+          <mxGeometry x="85" y="1040" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-38" value="agregar reservacion a lista de reservaciones" style="html=1;verticalAlign=bottom;endArrow=block;" parent="tfOXLWFE9za8FCACdLGF-19" edge="1">
+          <mxGeometry x="0.0667" width="80" relative="1" as="geometry">
+            <mxPoint x="95" y="1120" as="sourcePoint" />
+            <mxPoint x="95" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="1120" />
+              <mxPoint x="215" y="1120" />
+              <mxPoint x="215" y="1180" />
+              <mxPoint x="130" y="1180" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-39" value="return ReservacionMultiple()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="tfOXLWFE9za8FCACdLGF-19" target="tfOXLWFE9za8FCACdLGF-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="1240" as="sourcePoint" />
+            <mxPoint x="-130" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-22" value="ReservacionSencillaFactory()-&amp;gt;&lt;span style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;crearReservacionSencilla()&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="tfOXLWFE9za8FCACdLGF-2" target="tfOXLWFE9za8FCACdLGF-4" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="210" as="sourcePoint" />
+            <mxPoint x="260" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="240" />
+              <mxPoint x="400" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-23" value="new ReservacionSencilla()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" target="tfOXLWFE9za8FCACdLGF-12" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="580" y="280" as="sourcePoint" />
+            <mxPoint x="620" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-21" value="new ReservacionSencillaFactory()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="tfOXLWFE9za8FCACdLGF-2" target="tfOXLWFE9za8FCACdLGF-4" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="45" y="180" as="sourcePoint" />
+            <mxPoint x="125" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-27" value="return ReservacionSencilla()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.014;entryY=0.848;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tfOXLWFE9za8FCACdLGF-12" target="tfOXLWFE9za8FCACdLGF-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="600" as="sourcePoint" />
+            <mxPoint x="590" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-28" value="return ReservacionSencilla()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.989;entryY=0.348;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tfOXLWFE9za8FCACdLGF-4" target="tfOXLWFE9za8FCACdLGF-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380.4699999999996" y="640" as="sourcePoint" />
+            <mxPoint x="90" y="639" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-29" value="new&amp;nbsp;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;ConcreteDecoratorReservacionVIP&lt;/span&gt;()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="tfOXLWFE9za8FCACdLGF-2" edge="1">
+          <mxGeometry x="-0.4815" width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="680" as="sourcePoint" />
+            <mxPoint x="990" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="720" />
+              <mxPoint x="120" y="720" />
+              <mxPoint x="190" y="720" />
+              <mxPoint x="430" y="720" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-30" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;ConcreteDecoratorReservacionVIP&lt;/span&gt;(ReservacionSencilla())-&amp;gt;&lt;span style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;volverReservacionVIP()&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="tfOXLWFE9za8FCACdLGF-2" edge="1">
+          <mxGeometry x="-0.4392" width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="720" as="sourcePoint" />
+            <mxPoint x="990" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="760" />
+              <mxPoint x="260" y="760" />
+              <mxPoint x="405" y="760" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-34" value="return ReservacionVIP()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.003;entryY=0.603;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="tfOXLWFE9za8FCACdLGF-2" edge="1">
+          <mxGeometry x="-0.7037" relative="1" as="geometry">
+            <mxPoint x="990" y="1000" as="sourcePoint" />
+            <mxPoint x="720" y="1000" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfOXLWFE9za8FCACdLGF-35" value="new&amp;nbsp;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;ConcreteDecoratorReservacionMultiple&lt;/span&gt;()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="tfOXLWFE9za8FCACdLGF-2" target="tfOXLWFE9za8FCACdLGF-16" edge="1">
+          <mxGeometry x="-0.6573" width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="1080" as="sourcePoint" />
+            <mxPoint x="995" y="1080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="95" y="1080" />
+              <mxPoint x="125" y="1080" />
+              <mxPoint x="195" y="1080" />
+              <mxPoint x="435" y="1080" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
